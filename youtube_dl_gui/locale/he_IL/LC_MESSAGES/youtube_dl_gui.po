@@ -25,7 +25,7 @@ msgstr ""
 
 #: youtube_dl_gui/app.py:149
 msgid "Error"
-msgstr ""
+msgstr "שגיאה"
 
 #: youtube_dl_gui/formats.py:10
 msgid "ID"
@@ -41,7 +41,7 @@ msgstr "כותרת + ID"
 
 #: youtube_dl_gui/formats.py:13
 msgid "Title + Quality"
-msgstr "العنوان + الجودة"
+msgstr "כותרת + איכות"
 
 #: youtube_dl_gui/formats.py:14
 msgid "Title + ID + Quality"
