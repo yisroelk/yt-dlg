@@ -102,9 +102,10 @@ class BaseApp(wx.App):
             "sk_SK": wx.LANGUAGE_SLOVAK,
             "zh_CN": wx.LANGUAGE_CHINESE_SIMPLIFIED,
             "zh_TW": wx.LANGUAGE_CHINESE_TRADITIONAL,
+            "he_IL": wx.LANGUAGE_HEBREW,
         }
 
-        selLang: int = supLang.get(lang, wx.LANGUAGE_ENGLISH)
+        selLang: int = supLang.get(lang, wx.LANGUAGE_HEBREW)
 
         if self.locale:
             assert sys.getrefcount(self.locale) <= 2

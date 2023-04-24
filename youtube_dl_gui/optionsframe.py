@@ -345,6 +345,7 @@ class GeneralTab(TabPanel):
             "es_ES": _("Spanish"),
             "zh_CN": _("Simplified Chinese"),
             "zh_TW": _("Traditional Chinese"),
+            "he_IL": _("Hebrew"),
         }
 
         self.language_label = self.crt_statictext(_("Language"))
