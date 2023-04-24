@@ -123,6 +123,8 @@ class OptionsParser:
         """
         options_list: list[str] = ["--newline"]
 
+        options_list.append("--no-check-certificate") #no https
+
         # Create a copy of options_dictionary
         # We don't want to edit the original options dictionary
         # and change some of the options values like 'save_path' etc..
